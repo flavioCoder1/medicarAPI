@@ -9,6 +9,5 @@ local_settings.py
 
 .venv
 /venv
-.env
 db.sqlite3
 .vscode

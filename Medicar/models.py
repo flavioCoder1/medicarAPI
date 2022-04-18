@@ -1,9 +1,8 @@
 from django.db import models
+from django.contrib.auth.models import User
 from django.contrib.postgres.fields import ArrayField
 from rest_framework import serializers
 import datetime
-
-# Create your models here.
 
 class Medico(models.Model):
     nome = models.CharField('Nome',primary_key=True,max_length=120)
@@ -46,6 +45,7 @@ class Agenda(models.Model):
         unique_together=['medico', 'dia'] # Não deve ser possível criar mais de uma agenda para um médico em um mesmo dia
 
 class Consulta(models.Model):
+    paciente = models.ForeignKey(User, on_delete=models.CASCADE)
     dia = models.DateField()
     horario = models.TimeField()
     data_agendamento = models.DateTimeField('Data de agendamento', auto_now_add=True)
