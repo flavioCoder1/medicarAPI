@@ -56,7 +56,7 @@ class Consulta(models.Model):
         on_delete=models.CASCADE)
     
     def __str__(self):
-        return f'Consulta: Dia {self.dia.strftime("%d/%m/%Y")} - Horário: {self.horario.strftime("%H:%M")} - Médico: {self.medico.nome}'
+        return f'Consulta: Dia {self.dia.strftime("%d/%m/%Y")} - Horário: {self.horario} - Médico: {self.medico.nome}'
     
     class Meta:
         verbose_name="Consulta"

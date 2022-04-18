@@ -1,11 +1,9 @@
 from rest_framework.viewsets import ModelViewSet, ReadOnlyModelViewSet
 from Medicar.models import Medico, Agenda, Consulta
-from rest_framework import filters
 from .serializers import MedicoSerializer, AgendaSerializer, ConsultaSerializer
-from rest_framework import permissions
 import datetime
 
-# from .filters import MedicoFilter, AgendaFilter
+from .filters import MedicoFilter, AgendaFilter
 
 class MedicoViewSet(ReadOnlyModelViewSet):
         """
@@ -15,7 +13,7 @@ class MedicoViewSet(ReadOnlyModelViewSet):
 
         queryset = Medico.objects.all()
         serializer_class = MedicoSerializer
-        filter_class = FILTRO_NAO_FEITO
+        filter_class = MedicoFilter
         filterset_fields = ['nome', 'crm']
 
 class AgendaViewSet(ReadOnlyModelViewSet):
@@ -25,7 +23,7 @@ class AgendaViewSet(ReadOnlyModelViewSet):
         """
         queryset = Agenda.objects.all()
         serializer_class = AgendaSerializer
-        filter_class = FILTRO_NAO_FEITO
+        filter_class = AgendaFilter
         filterset_fields = ['medico']
 
         def get_queryset(self):
