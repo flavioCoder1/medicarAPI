@@ -49,6 +49,7 @@ class Consulta(models.Model):
     dia = models.DateField()
     horario = models.TimeField()
     data_agendamento = models.DateTimeField('Data de agendamento', auto_now_add=True)
+    esta_disponivel = models.BooleanField(default=True)
     medico = models.ForeignKey(
         Medico, verbose_name='Médico',
         related_name='consultas',
