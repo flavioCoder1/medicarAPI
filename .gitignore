@@ -8,6 +8,7 @@ Medicar/__pycache__/
 local_settings.py
 
 .venv
+/.venv
 /venv
 db.sqlite3
 .vscode
