@@ -7,11 +7,11 @@ import datetime
 
 class Medico(models.Model):
     nome = models.CharField('Nome',primary_key=True,max_length=120)
-    crm = models.IntegerField('CRM', blank=False,null=False,unique=True) #Não pode ter dois CRM iguais
+    crm = models.CharField('CRM',max_length=50,blank=False,null=False,unique=True) #Não pode ter dois CRM iguais
     email = models.EmailField('E-mail',max_length=100)
 
     def __str__(self):
-        return self.name
+        return self.nome
 
     class Meta:
         verbose_name = 'Médico'
@@ -37,7 +37,7 @@ class Agenda(models.Model):
             raise serializers.DjangoValidationError('Não podemos criar agenda para horario passado!')
 
     def __str__(self):
-        return f'Agenda: {self.medico.nome}, data: {self.dia}'
+        return f'Agenda: {self.medico.nome} - Dia: {self.dia.strftime("%d/%m/%Y")}'
 
     class Meta:
         verbose_name = 'Agenda'
@@ -55,7 +55,7 @@ class Consulta(models.Model):
         on_delete=models.CASCADE)
     
     def __str__(self):
-        return f'Consulta: Dia {self.dia}, Horário: {self.horario}, Médico: {self.medico.nome}'
+        return f'Consulta: Dia {self.dia.strftime("%d/%m/%Y")} - Horário: {self.horario.strftime("%H:%M")} - Médico: {self.medico.nome}'
     
     class Meta:
         verbose_name="Consulta"

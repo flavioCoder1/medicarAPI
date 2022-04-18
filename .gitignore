@@ -1,0 +1,14 @@
+### Django ###
+
+*.log
+*.pot
+*.pyc
+app_medicar/__pycache__/
+Medicar/__pycache__/
+local_settings.py
+
+.venv
+/venv
+.env
+db.sqlite3
+.vscode
