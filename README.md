@@ -25,7 +25,7 @@ Passo 2:
 Caso algum não estiver instalado, deve ser instalado, através dos seguintes comandos:
 
 ```sh
-$ sudo apt-get install python3.7
+$ sudo apt-get install python3.8
 ```
 
 ```sh
