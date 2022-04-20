@@ -89,27 +89,27 @@ Acesse http://127.0.0.1:8000/ no seu navegador para abrir a aplicação.
 
 https://medicarapi.herokuapp.com
 
-#### FUNCIONALIDADES
+# FUNCIONALIDADES
 
 ## ADMIN DO MODO SUPERUSER DJANGO FRAMEWORK
 
-# Interface para listar e visualizar médicos
+### Interface para listar e visualizar médicos
 
 <img src="https://uploaddeimagens.com.br/images/003/835/985/full/MEDICO-ADMIN-LIST.png" height="600" width="1200">
 
-# Interface para adicionar ou editar médicos
+### Interface para adicionar ou editar médicos
 
 <img src="https://uploaddeimagens.com.br/images/003/835/988/full/ADD_MEDICO-ADMIN.png" height="600" width="1200">
 
-# Interface para listar e visualizar agendas
+### Interface para listar e visualizar agendas
 
 <img src="https://uploaddeimagens.com.br/images/003/835/989/full/AGENDA-ADMIN-LIST.png" height="600" width="1200">
 
-# Interface para adicionar ou editar agendas
+### Interface para adicionar ou editar agendas
 
 <img src="https://uploaddeimagens.com.br/images/003/835/990/full/ADD_AGENDA-ADMIN.png" height="600" width="1200">
 
-# Interface para listar e visualizar Tokens de Autorização
+### Interface para listar e visualizar Tokens de Autorização
 
 <img src="https://uploaddeimagens.com.br/images/003/835/996/full/TOKEN_LIST-ADMIN.png" height="600" width="1200">
 
