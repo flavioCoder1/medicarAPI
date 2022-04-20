@@ -10,7 +10,7 @@ ________________________________________________________________________________
 A arquitetura do Django é relativamente simples. Basicamente, um projeto Django possui como padrão de projeto o MTV (Model, Template, View) que servem para:
 
 - Model: Mapeamento do banco de dados para o projeto;
-- Template: Páginas para visualização de dados. Normalmente, é aqui que fica o HTML que será renderizado nos navegadores;
+- Template: Páginas para visualização de dados. Normalmente, é aqui que fica o HTML que será renderizado nos navegadores; (Não foi utilizada pois foi desenvolvido somente o BackEnd da aplicação.)
 - View: Lógica de negócio. É aqui que determinamos o que irá acontecer em nosso projeto.
 
 Toda esta arquitetura é interligada e conversam entre si. Uma depende da outra para realizar um determinado serviço e, no final, executar a tarefa que o usuário solicitou. A imagem abaixo descreve exatamente como este processo funciona:
