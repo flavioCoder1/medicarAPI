@@ -89,6 +89,61 @@ Acesse http://127.0.0.1:8000/ no seu navegador para abrir a aplicação.
 
 https://medicarapi.herokuapp.com
 
+#### FUNCIONALIDADES
+
+## ADMIN DO MODO SUPERUSER DJANGO FRAMEWORK
+
+# Interface para listar e visualizar médicos
+
+<img src="https://uploaddeimagens.com.br/images/003/835/985/full/MEDICO-ADMIN-LIST.png" height="400" width="600">
+
+# Interface para adicionar ou editar médicos
+
+<img src="https://uploaddeimagens.com.br/images/003/835/988/full/ADD_MEDICO-ADMIN.png" height="400" width="600">
+
+# Interface para listar e visualizar agendas
+
+<img src="https://uploaddeimagens.com.br/images/003/835/989/full/AGENDA-ADMIN-LIST.png" height="400" width="600">
+
+# Interface para adicionar ou editar agendas
+
+<img src="https://uploaddeimagens.com.br/images/003/835/990/full/ADD_AGENDA-ADMIN.png" height="400" width="600">
+
+# Interface para listar e visualizar Tokens de Autorização
+
+<img src="https://uploaddeimagens.com.br/images/003/835/996/full/TOKEN_LIST-ADMIN.png" height="400" width="600">
+
+# Interface para adicionar ou editar um Token de Autorização
+
+<img src="https://uploaddeimagens.com.br/images/003/835/997/full/TOKEN_ADD-ADMIN.png?1650421543" height="400" width="600">
+
+## API ROUTES
+
+```sh
+/
+```
+<img src="https://uploaddeimagens.com.br/images/003/835/992/full/API_ROOT.png" height="400" width="600">
+
+```sh
+/medicos
+```
+
+<img src="https://uploaddeimagens.com.br/images/003/835/994/full/MEDICO_LIST-API.png" height="400" width="600">
+
+```sh
+/agendas
+```
+
+<img src="https://uploaddeimagens.com.br/images/003/835/995/full/ANGEDA_LIST-API.png?1650421428" height="400" width="600">
+
+## Exemplo de tabela AGENDAS no PostgreSQL:
+
+<img src="https://uploaddeimagens.com.br/images/003/836/000/full/POSTGRES-TABELA-AGENDAS.png" height="400" width="600">
+
+## Exemplo de Requisição GET NA ROTA http://localhost:8000/medicos /H.T.T.P./1.1 no INSOMNIA:
+
+<img src="https://uploaddeimagens.com.br/images/003/836/001/full/Insomnia-GET-MEDICOS.png" height="400" width="600">
+
 ## Tecnologias
 
 - <img src="https://camo.githubusercontent.com/e34e1fd8b88a76ad738eff256a773aa6c69b412c/68747470733a2f2f7777772e646a616e676f70726f6a6563742e636f6d2f732f696d672f6c6f676f732f646a616e676f2d6c6f676f2d6e656761746976652e706e67" width="150">
