@@ -98,3 +98,4 @@ Acesse http://127.0.0.1:8000/ no seu navegador para abrir a aplicação.
 - <img src="https://www.seekpng.com/png/full/525-5256723_docker-compose-logo.png" height="80" width="150">
 - <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Heroku_logo.svg" width="150">
 - <img src="https://1000logos.net/wp-content/uploads/2020/08/PostgreSQL-Logo-500x313.png" width="150">
+- <img src"https://miro.medium.com/max/1400/1*RVdAizn4MR2aJ2Yry6ABQQ.png" width="150">
