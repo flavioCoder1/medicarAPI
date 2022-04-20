@@ -1,7 +1,8 @@
 from django.db import models
-from django.contrib.auth.models import User
 from django.contrib.postgres.fields import ArrayField
 from rest_framework import serializers
+from django.contrib.auth.models import User
+from rest_framework import request
 import datetime
 
 class Medico(models.Model):

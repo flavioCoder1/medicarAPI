@@ -16,7 +16,7 @@ class AgendaSerializer(serializers.ModelSerializer):
 
 class ConsultaSerializer(serializers.ModelSerializer):
     paciente = serializers.HiddenField( default=serializers.CurrentUserDefault() )
-    medico = MedicoSerializer(read_only=True, source='medico.nome')
+    medico = MedicoSerializer(read_only=True)
     
     def validate(self, data):
         data_atual = datetime.date.today()
@@ -37,4 +37,4 @@ class ConsultaSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Consulta
-        fields = ('__all__')
+        fields = ('id', 'dia', 'horario', 'data_agendamento', 'medico', 'paciente')

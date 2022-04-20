@@ -1,6 +1,7 @@
 from rest_framework.viewsets import ModelViewSet, ReadOnlyModelViewSet
 from Medicar.models import Medico, Agenda, Consulta
 from .serializers import MedicoSerializer, AgendaSerializer, ConsultaSerializer
+from rest_framework import permissions
 import datetime
 
 from .filters import MedicoFilter, AgendaFilter
@@ -15,6 +16,7 @@ class MedicoViewSet(ReadOnlyModelViewSet):
         serializer_class = MedicoSerializer
         filter_class = MedicoFilter
         filterset_fields = ['nome', 'crm']
+        
 
 class AgendaViewSet(ReadOnlyModelViewSet):
         """
@@ -41,6 +43,7 @@ class ConsultaViewSet(ModelViewSet):
         delete: Deleta uma consulta para paciente. Necessário informar o id da consulta como parâmetro na url. Retorna a lista de consultas marcadas para o paciente.
         """
         serializer_class = ConsultaSerializer
+        permission_classes = [permissions.IsAuthenticated]
 
         def get_queryset(self):
                 paciente = self.request.user

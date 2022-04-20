@@ -22,7 +22,9 @@ class AgendaFilter(django_filters.FilterSet):
     )
 
     medico__crm = django_filters.filters.ModelMultipleChoiceFilter(
-        queryset=Medico.crm.objects.all(),
+        field_name='medico__crm',
+        to_field_name='crm',
+        queryset=Medico.objects.all(),
     )
 
     data_inicio = django_filters.DateFilter(field_name='dia', lookup_expr='gte')
