@@ -119,7 +119,7 @@ https://medicarapi.herokuapp.com
 
 # API ROUTES
 
-
+## GET REQUEST NO ROOT /
 ```sh
 /
 ```
@@ -128,21 +128,20 @@ https://medicarapi.herokuapp.com
 <img src="https://uploaddeimagens.com.br/images/003/835/992/full/API_ROOT.png" height="600" width="1200">
 
 
-
+## GET REQUEST NA ROTA /medicos
 ```sh
 /medicos
 ```
-
 
 
 <img src="https://uploaddeimagens.com.br/images/003/835/994/full/MEDICO_LIST-API.png" height="600" width="1200">
 
 
 
+## GET REQUEST NA ROTA /agendas
 ```sh
 /agendas
 ```
-
 
 
 <img src="https://uploaddeimagens.com.br/images/003/835/995/full/ANGEDA_LIST-API.png" height="600" width="1200">
