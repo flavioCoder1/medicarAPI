@@ -92,3 +92,4 @@ Acesse http://127.0.0.1:8000/ no seu navegador para abrir a aplicação.
 - <img src="https://www.python.org/static/community_logos/python-logo.png" width="150">
 - <img src="https://www.docker.com/wp-content/uploads/2022/03/horizontal-logo-monochromatic-white.png" width="150">
 - <img src="https://www.seekpng.com/png/full/525-5256723_docker-compose-logo.png" height="150" width="150">
+- <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Heroku_logo.svg" width="150">
