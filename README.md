@@ -85,6 +85,10 @@ python3 manage.py runserver
 
 Acesse http://127.0.0.1:8000/ no seu navegador para abrir a aplicação.
 
+## Também feito o Deploy no Heroku. (Contém alguns erros Status 503)
+
+
+
 ## Tecnologias
 
 - <img src="https://camo.githubusercontent.com/e34e1fd8b88a76ad738eff256a773aa6c69b412c/68747470733a2f2f7777772e646a616e676f70726f6a6563742e636f6d2f732f696d672f6c6f676f732f646a616e676f2d6c6f676f2d6e656761746976652e706e67" width="150">
@@ -93,3 +97,4 @@ Acesse http://127.0.0.1:8000/ no seu navegador para abrir a aplicação.
 - <img src="https://www.docker.com/wp-content/uploads/2022/03/horizontal-logo-monochromatic-white.png" width="150">
 - <img src="https://www.seekpng.com/png/full/525-5256723_docker-compose-logo.png" height="80" width="150">
 - <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Heroku_logo.svg" width="150">
+- <img src="https://1000logos.net/wp-content/uploads/2020/08/PostgreSQL-Logo-500x313.png" width="150">
