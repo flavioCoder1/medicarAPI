@@ -91,4 +91,4 @@ Acesse http://127.0.0.1:8000/ no seu navegador para abrir a aplicação.
 - <img src="https://www.django-rest-framework.org/img/logo.png" width="150">
 - <img src="https://www.python.org/static/community_logos/python-logo.png" width="150">
 - <img src="https://www.docker.com/wp-content/uploads/2022/03/horizontal-logo-monochromatic-white.png" width="150">
-- <img src="https://www.seekpng.com/ipng/u2r5q8q8e6e6y3a9_docker-compose-logo/" width="150">
+- <img src="https://www.seekpng.com/ipng/u2r5q8q8e6e6y3a9_docker-compose-logo" width="150">
