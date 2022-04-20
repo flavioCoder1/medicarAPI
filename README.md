@@ -113,36 +113,58 @@ https://medicarapi.herokuapp.com
 
 <img src="https://uploaddeimagens.com.br/images/003/835/996/full/TOKEN_LIST-ADMIN.png" height="600" width="1200">
 
-# Interface para adicionar ou editar um Token de Autorização
+### Interface para adicionar ou editar um Token de Autorização
 
 <img src="https://uploaddeimagens.com.br/images/003/835/997/full/TOKEN_ADD-ADMIN.png" height="600" width="1200">
 
-## API ROUTES
+# API ROUTES
+
 
 ```sh
 /
 ```
+
+
 <img src="https://uploaddeimagens.com.br/images/003/835/992/full/API_ROOT.png" height="600" width="1200">
+
+
 
 ```sh
 /medicos
 ```
 
+
+
 <img src="https://uploaddeimagens.com.br/images/003/835/994/full/MEDICO_LIST-API.png" height="600" width="1200">
+
+
 
 ```sh
 /agendas
 ```
 
+
+
 <img src="https://uploaddeimagens.com.br/images/003/835/995/full/ANGEDA_LIST-API.png" height="600" width="1200">
 
-## Exemplo de tabela AGENDAS no PostgreSQL:
+
+
+
+# Exemplo de tabela AGENDAS no PostgreSQL:
+
+
 
 <img src="https://uploaddeimagens.com.br/images/003/836/000/full/POSTGRES-TABELA-AGENDAS.png" height="600" width="1200">
 
+
+
 ## Exemplo de Requisição GET NA ROTA http://localhost:8000/medicos /H.T.T.P./1.1 no INSOMNIA:
 
+
+
 <img src="https://uploaddeimagens.com.br/images/003/836/001/full/Insomnia-GET-MEDICOS.png" height="600" width="1200">
+
+
 
 ## Tecnologias
 
