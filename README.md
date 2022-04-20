@@ -2,7 +2,36 @@
 
 A API medicar é baseada em um sistema para gestão de consultas em uma clínica médica, na qual o administrador pode cadastrar médicos e agendas para os médicos e o cliente pode marcar consultas para o médico desejado.
 
-### Configuração da Máquina
+________________________________________________________________________________________________________________________________________________________
+
+
+# Arquitetura do Projeto: MTV(Model - Template - View) do Django
+
+A arquitetura do Django é relativamente simples. Basicamente, um projeto Django possui como padrão de projeto o MTV (Model, Template, View) que servem para:
+
+Model: Mapeamento do banco de dados para o projeto;
+Template: Páginas para visualização de dados. Normalmente, é aqui que fica o HTML que será renderizado nos navegadores;
+View: Lógica de negócio. É aqui que determinamos o que irá acontecer em nosso projeto.
+
+Toda esta arquitetura é interligada e conversam entre si. Uma depende da outra para realizar um determinado serviço e, no final, executar a tarefa que o usuário solicitou. A imagem abaixo descreve exatamente como este processo funciona:
+
+
+
+<img src="https://dkrn4sk0rn31v.cloudfront.net/2020/03/17154006/Untitled.png" height="600" width="630">
+
+
+## Camadas de lógicas adicionais
+
+-Serializers
+-Filters
+-Signals
+
+
+________________________________________________________________________________________________________________________________________________________
+
+
+
+# Configuração da Máquina
 
 Passo 1:
 
@@ -89,6 +118,11 @@ Acesse http://127.0.0.1:8000/ no seu navegador para abrir a aplicação.
 
 https://medicarapi.herokuapp.com
 
+
+________________________________________________________________________________________________________________________________________________________
+
+
+
 # FUNCIONALIDADES
 
 ## ADMIN DO MODO SUPERUSER DJANGO FRAMEWORK
@@ -162,6 +196,9 @@ https://medicarapi.herokuapp.com
 
 
 <img src="https://uploaddeimagens.com.br/images/003/836/001/full/Insomnia-GET-MEDICOS.png" height="600" width="1200">
+
+
+________________________________________________________________________________________________________________________________________________________
 
 
 
